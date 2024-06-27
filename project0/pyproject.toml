@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "wheel"]  # PEP 508 specifications.
+
+[project]
+name = "project_0"
+version = "1.0.0"
+authors = [
+    {name = "Ryan C", email = "me@ryancampbell.name"},
+]
+description = "Real-World Python Projects -- Project 0."
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    # Packages required -- None for Project Zero.
+]
+[project.optional-dependencies]
+dev = [
+    # Development tools to work on this project
+    "sphinx==7.3.7",
+    "sphinxcontrib-plantuml==0.30",
+    "pip-tools==7.4.1"
+]
+test = [
+    # Testing tools to test this project
+    "pytest==8.2.2",
+    "tox==4.15.1",
+    "behave==1.2.6"
+]

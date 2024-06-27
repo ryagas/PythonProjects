@@ -1,0 +1,10 @@
+
+[dev]
+sphinx==7.3.7
+sphinxcontrib-plantuml==0.30
+pip-tools==7.4.1
+
+[test]
+pytest==8.2.2
+tox==4.15.1
+behave==1.2.6

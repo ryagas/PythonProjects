@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: project_0
+Version: 1.0.0
+Summary: Real-World Python Projects -- Project 0.
+Author-email: Ryan C <me@ryancampbell.name>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: sphinx==7.3.7; extra == "dev"
+Requires-Dist: sphinxcontrib-plantuml==0.30; extra == "dev"
+Requires-Dist: pip-tools==7.4.1; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest==8.2.2; extra == "test"
+Requires-Dist: tox==4.15.1; extra == "test"
+Requires-Dist: behave==1.2.6; extra == "test"
+
+Project README
+===
+
+This file needs to provide an ”elevator pitch” for the project (see https://www.atlassian.com/team-playbook/plays/elevator-pitch).
